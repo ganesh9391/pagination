@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagination</title>
+<style>
+
+
+.wt{
+    width: 24px;
+    height: 24px;
+    stroke: rgb(red, green, blue)(0,158,185);
+}
+body{
+    font-family: sans-serif;
+}
+
+.vv{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    
+}
+
+.btn{
+    width: 48px;
+    height: 48px;
+    border-radius: 250%;
+    background-color: red;
+    border: 2px solid rgb(red, green, blue);
+    padding: 10px;
+
+
+}
+.btn:hover .wt{
+   stroke: blue;
+
+}
+.btn:hover{
+    background-color: aqua;
+}
+.vr{
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+   text-decoration: none;
+   width: 24px;
+   height: 24px;
+   padding: 8px;
+}
+.vr:hover {
+    background-color: green;
+    
+}
+
+.gt{
+    display: flex;
+    font-size: 24px;
+}
+thead{
+    background-color: rgb(67, 219, 20);
+}
+
+tbody tr:nth-child(odd){
+
+    background-color: rgb(43, 226, 217);
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(255, 127, 127);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<h1>pagination</h1>
+<body>
+<div class="vv">
+    <button class="btn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="wt">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+        </svg>
+    </button>
+    
+        <a class="vr" href="#">1</a>
+        <a class="vr"href="#">2</a>
+        <a class="vr"href="#">3</a>
+        <a class="vr" href="#">4</a>
+        <a class="vr" href="#">5</a>
+        <span class="gt">......</span>
+        <a class="vr"href="">96</a>
+        <a class="vr" href="">97</a>
+        <a class="vr" href="">98</a>
+        <a class="vr" href="#">99</a>
+    
+     <button class="btn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="wt">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+          </svg>
+          
+     </button>
+
+     
+
+</div>
+<br><br>
+<h1>table</h1>
+<table border="1">
+<thead>
+    <th>MOVIES</th>
+    <th>ACTOR</th>
+    <th>ACTRESS</th>
+    <th>DAYS</th>
+</thead>
+<tbody >
+<tr>
+    <th>janu</th>
+    <td>Nandhu</td>
+    <td>samantha</td>
+     <td>100</td>
+</tr>
+<tr>
+   <th>kantri</th>
+    <td>ntr</td>
+    <td>kajal</td>
+    <td>75</td>
+</tr>
+
+<tr>
+    <th>badhusha</th>
+     <td>ntr</td>
+     <td>kajal</td>
+     <td>70</td>
+ </tr>
+
+ <tr>
+    <th>chanti</th>
+     <td>venkatesh</td>
+     <td>meena</td>
+     <td>50</td>
+ </tr>
+
+ <tr>
+    <th>ariya</th>
+     <td>banni</td>
+     <td>kajal</td>
+     <td>58</td>
+ </tr>
+
+
+
+</tbody>
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
